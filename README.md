@@ -66,4 +66,4 @@ To change to another service (e.g. Github) in `scripts/setup_drone.sh.tpl` chang
 
 Please visit [here](http://readme.drone.io/setup/overview/) for more details.
 
-Pull requets welcome :v:.
+Pull requests welcome :v:.
