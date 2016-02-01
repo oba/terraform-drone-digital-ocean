@@ -10,10 +10,10 @@ REMOTE_DRIVER=bitbucket
 REMOTE_CONFIG=https://bitbucket.org?client_id=${client_id}&client_secret=${client_secret}
 EOF
 
-<!-- cat > /etc/drone/dronerc << EOF
-REMOTE_DRIVER=github
-REMOTE_CONFIG=https://github.com?client_id={client_id}&client_secret=${client_secret}
-EOF -->
+# cat > /etc/drone/dronerc << EOF
+# REMOTE_DRIVER=github
+# REMOTE_CONFIG=https://github.com?client_id={client_id}&client_secret=${client_secret}
+# EOF
 
 sudo docker run \
     --volume /var/lib/drone:/var/lib/drone \
