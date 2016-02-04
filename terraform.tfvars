@@ -20,5 +20,5 @@ droplet_size                        = "512" # in mb
 #--------------------------------------------------------------
 
 # Create in GitHub, BitBucket etc
-# client_id                       = Set in environment or via CLI
-# client_secret                   = Set in environment or via CLI
+# client_id                           = Set in environment or via CLI
+# client_secret                       = Set in environment or via CLI
