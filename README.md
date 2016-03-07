@@ -35,16 +35,16 @@ For `Permissions` tick:
         -var "do_token=<YOUR-DIGITAL-OCEAN-TOKEN>" \
         -var "private_key=<YOUR-PRIVATE-KEY>" \
         -var "public_key=<YOUR-PUBLIC-KEY>" \
-        -var "client_id=<YOUR-PUBLIC-KEY>" \
-        -var "client_secret=<YOUR-PUBLIC-KEY>" \
+        -var "client_id=<VCS-CLIENT-ID>" \
+        -var "client_secret=<VCS-CLIENT-SECRET>" \
     ...
     ...
     terraform apply \
         -var "do_token=<YOUR-DIGITAL-OCEAN-TOKEN>" \
         -var "private_key=<YOUR-PRIVATE-KEY>" \
         -var "public_key=<YOUR-PUBLIC-KEY>"
-        -var "client_id=<YOUR-PUBLIC-KEY>" \
-        -var "client_secret=<YOUR-PUBLIC-KEY>" \
+        -var "client_id=<VCS-CLIENT-ID>" \
+        -var "client_secret=<VCS-CLIENT-SECRET>" \
     ...
     ...
     details = Droplet Public IP:
